@@ -1,7 +1,7 @@
 {
   "projects":[
     {
-      "id":0,
+      "id":1,
       "project_name":"Random Quote Generator",
       "description":"This app randomly generates a quote from a pre estalbished array of quotes and displays them to the user.",
       "technologies":["HTML", "CSS", "JavaScript"],
@@ -10,7 +10,7 @@
       "image_urls":["../images/project-1-main-image.png", "../images/project-1-landscape-image-1.png", "../images/project-1-landscape-image-2.png", "../images/project-1-landscape-image-3.png"]
     },
     {
-      "id":1,
+      "id":2,
       "project_name":"Data Pagination and Filtering",
       "description":"This app allows the user to filter through a collection of people, pagination has been added to the collection of individuals.",
       "technologies":["HTML", "CSS", "JavaScript"],
@@ -19,7 +19,7 @@
       "image_urls":["../images/project-2-main-image.png", "../images/project-2-landscape-image-1.png", "../images/project-2-landscape-image-2.png", "../images/project-2-landscape-image-3.png"]
     },
     {
-      "id":2,
+      "id":3,
       "project_name":"Interactive Form",
       "description":"An interactive form that uses regex to check the user input matches the correct format.",
       "technologies":["HTML", "CSS", "JavaScript"],
@@ -28,7 +28,7 @@
       "image_urls":["../images/project-3-main-image.png", "../images/project-3-landscape-image-1.png", "../images/project-3-landscape-image-2.png", "../images/project-3-landscape-image-3.png"]
     },
     {
-      "id":3,
+      "id":4,
       "project_name":"Game Show App",
       "description":"This app is a word guessing game that is displayed on the browser.",
       "technologies":["HTML", "CSS", "JavaScript"],
@@ -37,7 +37,7 @@
       "image_urls":["../images/project-4-main-image.png", "../images/project-4-landscape-image-1.png", "../images/project-4-landscape-image-2.png", "../images/project-4-landscape-image-3.png"]
     },
     {
-      "id":4,
+      "id":5,
       "project_name":"Public API Requests",
       "description":"This project shows the use of public API Requests with some added sytling.",
       "technologies":["HTML", "CSS", "JavaScript"],

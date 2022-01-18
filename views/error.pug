@@ -1,0 +1,9 @@
+extends layout.pug
+
+block content
+
+  article.portfolio-intro
+
+    h1= err.status + `, ` + err.message
+    p= err.stack
+
