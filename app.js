@@ -16,23 +16,17 @@ app.get('/about', (req, res) => {
   res.render('about');
 });
 
-app.get('/project/:id', (req, res) => {
+app.get('/project/:id', (req, res, next) => {
+
   const {id} = req.params;
   const project = jsonFile.projects[parseInt(id, 10) - 1];
+
   if (!project){
-
+    const err = new Error('This page does not exist.');
+    return next(err);
   }
+
   res.render('project', project);
-});
-
-app.use((req, res, next) => {
-  console.log("404, error handler called");
-});
-
-app.use((err, req, res, next) => {
-  if(err) {
-    console.log('Global error handler called', err);
-  }
 });
 
 app.listen(3000, () => console.log("App is running on Port:3000"));
