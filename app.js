@@ -20,7 +20,7 @@ app.get('/project/:id', (req, res, next) => {
   const {id} = req.params;
   const project = jsonFile.projects[parseInt(id, 10) - 1];
   if (!project){
-    next();
+    return next();
   }
   res.render('project', project);
 });
