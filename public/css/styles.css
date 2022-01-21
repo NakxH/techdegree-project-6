@@ -22,14 +22,14 @@ body {
   line-height: 1.5;
   color: #0a0a0a;
   background: #fefefe;
-  background: #1AA3E9;
+  /* background: #1AA3E9; */
   transform: translateX(0px);
   transition: all 0.4s ease-out;
 }
 
-article {
+/* article {
   background: #fefefe;
-}
+} */
 
 h1,h2,h3,h4,h5,p{
   font-family: 'Merriweather', serif;
@@ -185,8 +185,8 @@ nav a span {
   color: #fefefe;
   height: 40px;
   padding: 0.5rem;
-  background: #0a0a0a;
-  border-left: 1px solid #0a0a0a;
+  background: #1AA3E9;
+  border-left: 1px solid #1AA3E9;
 }
 
 .header span {
@@ -202,7 +202,7 @@ nav a span {
   width: 20px;
   height: 16px;
   border: none;
-  background: #0a0a0a;
+  background: #1AA3E9;
   margin-top: 3px;
   margin-right: 10px;
   border-top: 2px solid #fefefe;
@@ -337,7 +337,7 @@ nav a span {
   }
 
   .grid {
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   }
 }
 
